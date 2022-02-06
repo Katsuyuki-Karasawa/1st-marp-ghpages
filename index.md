@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: gaia
-header:
+header: 唐澤克幸
 backgroundColor: lavender
 paginate: true
 ---
@@ -14,9 +14,13 @@ Source is No License
 
 ---
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700&display=swap');
-</style>
+# 目次
+
+1. 概要
+2. プログラム概要
+3. 反響
+4. みんなで逮捕されようプロジェクト
+---
 
 # 概要
 
@@ -63,11 +67,28 @@ window.alert("　∧_∧　ババババ\n（ ・ω・)=つ≡つ\n（っ ≡つ=
 
 ---
 
-```window.alert```はダイアログを閉じるまでは処理が進まないので、このプログラムはブラウザの動作に影響を与えるものではなく、したがってブラウザクラッシャーではなくジョークプログラムに該当するものである。
-かつ**小学生でもわかる**が、これらはタブを閉じる、ウインドウを閉じるなどタスクを終了させてしまえばなんら影響はない
+```window.alert```はダイアログを閉じるまでは処理が進まないので、このプログラムはブラウザの動作に影響を与えるものではない
 
 実際に実行すると[これ](https://mouse484.github.io/lets-get-arrested/ja/)が表示されるだけである
-![auto](/docs/images/js_io.png) 
+
+これらと似たようなスクリプトは、悪質なアフィリエイトにも採用されており、そちらが取り締まられる前例があるのであるば一考の予知があるが、その前例も存在していない
+
+それらを加味すると起訴猶予処分どころか、不正指令電磁的記録供用未遂で検挙が行われることすら懐疑的だ
+
+Winny事件、Coinhive事件、Wizard Bible事件同様、日本のグローバルエンジニアへの道を閉ざす一因とならざるを得ない
+
+--- 
+アラートループにおける検証については以下を参照してください
+
+**無限アラート事件の何が問題なのか考察してみた**
+https://qiita.com/yuta0801/items/e6ed71a905e66c307046
+
+**無限アラートは不正プログラムとして逮捕されるらしいので警察にゴールドバッハ予想を証明してもらおう**
+https://qiita.com/yuta0801/items/82872d551caf47f2c7af
+
+**Yahooニュースに無限ループを見つけた**
+https://qiita.com/querykuma/items/a2deb09b634927be3206
+
 
 ---
 
