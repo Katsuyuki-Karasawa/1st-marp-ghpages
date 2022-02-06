@@ -3,12 +3,20 @@ marp: true
 theme: gaia
 header:
 backgroundColor: lavender
+paginate: true
 ---
 
 # アラートループ事件
     登壇者:唐澤克幸
 
+[**Github Repository**](https://github.com/Katsuyuki-Karasawa/1st-marp-ghpages)
+Source is No License
+
 ---
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700&display=swap');
+</style>
 
 # 概要
 
@@ -58,8 +66,8 @@ window.alert("　∧_∧　ババババ\n（ ・ω・)=つ≡つ\n（っ ≡つ=
 ```window.alert```はダイアログを閉じるまでは処理が進まないので、このプログラムはブラウザの動作に影響を与えるものではなく、したがってブラウザクラッシャーではなくジョークプログラムに該当するものである。
 かつ**小学生でもわかる**が、これらはタブを閉じる、ウインドウを閉じるなどタスクを終了させてしまえばなんら影響はない
 
-実際に実行すると[これ](https://mouse484.github.io/lets-get-arrested/ja/)が表示されるだけ
-![auto](docs/images/js_io.png) 
+実際に実行すると[これ](https://mouse484.github.io/lets-get-arrested/ja/)が表示されるだけである
+![auto](/docs/images/js_io.png) 
 
 ---
 
@@ -99,10 +107,9 @@ Netscape Communications Corporationに転職後Netscape最高峰ともいえる�
 Firefoxの前進となったであろうMozilla社のブラウザ
 Windows 95普及以前のバージョン3.0をリリースした1996年にはブラウザ全体の70%のシェアを誇っていた
 最新版のリリースノートは、
-```
-Netscape Navigator 4.08 – 1998年11月9日 (16bit版Windowsと68k Macintoshの最終リリース)
-```
+`Netscape Navigator 4.08 – 1998年11月9日 (16bit版Windowsと68k Macintoshの最終リリース)`
 となっている
+
 つまり，兵庫県警は2000年代ですらない、16bitのコンピュータが主流の時代のブラウザの機能に負けたと煽られたということになる
 タイムスリップでもしたのだろうか
 **しかし、コレがエンジニア敗戦国の実情なのである**
@@ -111,11 +118,13 @@ Netscape Navigator 4.08 – 1998年11月9日 (16bit版Windowsと68k Macintoshの
 ---
 
 # [みんなで逮捕されようプロジェクト](https://github.com/hamukazu/lets-get-arrested/blob/master/README.ja.md)
-### [#letsgetarrested4jscode](https://twitter.com/search?q=%23letsgetarrested4jscode&src=typed_query)
+
 
 当時もっともGihubにて盛り上がったリポジトリの1つといって間違いないでしょう
 ただの30ヶ国語に翻訳された`README.md`に150を超えるコミット、4000近いStar、1000を超えるForkなどが付きました
 このリポジトリの特徴的なところは、これを使って逮捕されれば最良の結果を得られる部分にあります
 
 日本の警察の無能さが世界に示された瞬間だったといえるでしょう
+
+---
 
