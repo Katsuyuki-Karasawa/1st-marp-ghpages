@@ -1,0 +1,26 @@
+{
+  "name": "marp-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "marp --html --server .",
+    "build": "marp index.md --html -o docs/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katsuyuki-Karasawa/1st-marp-ghpages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katsuyuki-Karasawa/1st-marp-ghpages/issues"
+  },
+  "homepage": "https://github.com/Katsuyuki-Karasawa/1st-marp-ghpages#readme",
+  "dependencies": {
+    "@marp-team/marp-cli": "^1.5.2"
+  }
+}
